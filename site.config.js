@@ -12,13 +12,15 @@ const CONFIG = {
   },
   projects: [
     {
-      
+      name: `nodejs-tutorial`,
+      href: "https://github.com/zxc1234321/Web_making_nodejs",
     },
   ],
   // blog setting (required)
   blog: {
     title: "sms0705",
     description: "welcome to sms0705!",
+    theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
