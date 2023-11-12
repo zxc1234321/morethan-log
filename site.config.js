@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      //name: `nodejs-tutorial`,
-      //href: "https://github.com/zxc1234321/Web_making_nodejs",
+      name: `medium blog`,
+      href: "https://medium.com/@spcle2412",
     },
   ],
   // blog setting (required)
