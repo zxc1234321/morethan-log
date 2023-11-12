@@ -1,19 +1,18 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "",
+    name: "sms0705",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
     bio: "I develop everything using node.",
     email: "spcle2412@gmail.com",
-    linkedin: "",
+    linkedin: "minseop-son",
     github: "zxc1234321",
     instagram: "",
   },
   projects: [
     {
-      name: ``,
-      href: "https://github.com/zxc1234321",
+      
     },
   ],
   // blog setting (required)
@@ -29,7 +28,7 @@ const CONFIG = {
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ["Blog", "Website", "Notion"],
-  };
+  },
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
@@ -37,19 +36,19 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: true,
+    enable: false,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: true,
+    enable: false,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
